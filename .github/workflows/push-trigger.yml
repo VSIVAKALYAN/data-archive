@@ -38,7 +38,7 @@ jobs:
       #PR_TITLE: ${{ github.event.pull_request.title || 'N/A' }}
       ACTION: ${{ github.event.action || 'N/A' }}
       PR_URL: "<!subtype|${{ github.event.pull_request.html_url || 'N/A' }}>"
-      COMMIT: "<${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }|Commit}>"
+      COMMIT: "<${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}|Commit}>"
       REPO: ${{ github.repository }}
       JOB_URL: "<!subtype|${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}>"
 
